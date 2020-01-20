@@ -183,7 +183,8 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Swashbuckle.AspNetCore >= 5.0.0"
+      "Swashbuckle.AspNetCore >= 5.0.0",
+      "Swashbuckle.AspNetCore.Swagger >= 5.0.0"
     ]
   },
   "packageFolders": {
@@ -228,6 +229,10 @@
       "netcoreapp3.1": {
         "dependencies": {
           "Swashbuckle.AspNetCore": {
+            "target": "Package",
+            "version": "[5.0.0, )"
+          },
+          "Swashbuckle.AspNetCore.Swagger": {
             "target": "Package",
             "version": "[5.0.0, )"
           }

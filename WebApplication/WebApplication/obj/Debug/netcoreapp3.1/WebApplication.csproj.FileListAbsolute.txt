@@ -17,8 +17,8 @@ D:\GitHub\SwaggerForDotnetCore\WebApplication\WebApplication\bin\Debug\netcoreap
 D:\GitHub\SwaggerForDotnetCore\WebApplication\WebApplication\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
 D:\GitHub\SwaggerForDotnetCore\WebApplication\WebApplication\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\GitHub\SwaggerForDotnetCore\WebApplication\WebApplication\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
-D:\GitHub\SwaggerForDotnetCore\WebApplication\WebApplication\obj\Debug\netcoreapp3.1\WebApplication.MvcApplicationPartsAssemblyInfo.cs
-D:\GitHub\SwaggerForDotnetCore\WebApplication\WebApplication\obj\Debug\netcoreapp3.1\WebApplication.MvcApplicationPartsAssemblyInfo.cache
 D:\GitHub\SwaggerForDotnetCore\WebApplication\WebApplication\obj\Debug\netcoreapp3.1\WebApplication.csproj.CopyComplete
 D:\GitHub\SwaggerForDotnetCore\WebApplication\WebApplication\obj\Debug\netcoreapp3.1\WebApplication.dll
 D:\GitHub\SwaggerForDotnetCore\WebApplication\WebApplication\obj\Debug\netcoreapp3.1\WebApplication.pdb
+D:\GitHub\SwaggerForDotnetCore\WebApplication\WebApplication\obj\Debug\netcoreapp3.1\WebApplication.MvcApplicationPartsAssemblyInfo.cs
+D:\GitHub\SwaggerForDotnetCore\WebApplication\WebApplication\obj\Debug\netcoreapp3.1\WebApplication.MvcApplicationPartsAssemblyInfo.cache
