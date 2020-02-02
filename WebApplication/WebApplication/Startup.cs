@@ -1,16 +1,12 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
-using Swashbuckle.AspNetCore.Swagger;
+using System.Collections.Generic;
+using WebApplication.Controllers;
+using WebApplication.Models;
 
 namespace WebApplication
 {
@@ -59,6 +55,16 @@ namespace WebApplication
                     }
                 });
             });
+
+            services.AddDbContext<dotnetContext>();
+            services.AddTransient<IFirstService, FirstService>();
+            services.AddTransient<ISecondService, SecondService>();
+            services.AddTransient<IThirdService, ThirdService>();
+            services.AddTransient<IFourthService, FourthService>();
+            services.AddTransient<IFifthService, FifthService>();
+            services.AddTransient<ISixthService, SixthService>();
+            services.AddTransient<ISeventhService, SeventhService>();
+            services.AddTransient<IEighthService, EighthService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
