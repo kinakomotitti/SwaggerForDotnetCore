@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <PackageProjectUrl>/swagger</PackageProjectUrl>
+    <PackageProjectUrl>/swagger/index.html</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
